@@ -5,4 +5,9 @@ public class AsteroidMan extends SuperHero {
     public String motto() {
         return "A-steroid man!";
     }
+
+    @Override
+    public String toString() {
+        return "AsteroidMan";
+    }
 }

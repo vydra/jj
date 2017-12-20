@@ -5,4 +5,9 @@ public class LizzardWoman extends SuperHero {
     public String motto() {
         return "Lizzzzzzzzz!";
     }
+
+    @Override
+    public String toString() {
+        return "LizzardWoman";
+    }
 }
